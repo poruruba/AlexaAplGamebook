@@ -1,0 +1,50 @@
+{
+  "type": "APL",
+  "version": "1.6",
+  "import": [
+    {
+      "name": "alexa-layouts",
+      "version": "1.3.0"
+    }
+  ],
+  "mainTemplate": {
+    "parameters": [
+    ],
+    "items": [
+      {
+        "type": "Container",
+        "height": "100vh",
+        "width": "100vw",
+        "justifyContent": "center",
+        "items": [
+          {
+            "type": "Video",
+            "height": "100%",
+            "width": "100%",
+            "position": "absolute",
+            "id": "",
+            "autoplay": true,
+            "source": "",
+            "onEnd": [
+              {
+                "type": "SendEvent",
+                "arguments": [
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Text",
+            "text": "",
+            "textAlign": "center",
+            "width": "100%",
+            "position": "absolute",
+            "color": "${gamebookStyles.gb_font_color_title}",
+            "fontSize": "${gamebookStyles.gb_font_size_title}",
+            "padding": "${gamebookStyles.gb_padding}"
+          }
+        ]
+      }
+    ]
+  }
+}

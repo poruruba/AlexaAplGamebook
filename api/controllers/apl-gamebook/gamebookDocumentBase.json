@@ -1,0 +1,83 @@
+{
+  "type": "APL",
+  "version": "1.6",
+  "import": [
+    {
+      "name": "alexa-layouts",
+      "version": "1.3.0"
+    }
+  ],
+  "onMount": [
+  ],
+  "mainTemplate": {
+    "parameters": [
+    ],
+    "items": [
+      {
+        "type": "Container",
+        "width": "100vw",
+        "height": "100vh",
+        "items": [
+          {
+            "type": "AlexaBackground",
+            "backgroundImageSource": "",
+            "backgroundScale": "fill"
+          },
+          {
+            "type": "Text",
+            "text": "",
+            "color": "${gamebookStyles.gb_font_color}",
+            "fontSize": "${gamebookStyles.gb_font_size}",
+            "padding": "${gamebookStyles.gb_padding}"
+          },
+          {
+            "type": "Container",
+            "width": "100%",
+            "height": "100%",
+            "position": "absolute",
+            "justifyContent": "end",
+            "items": [
+            ]
+          },
+          {
+            "type": "Container",
+            "width": "100%",
+            "height": "100%",
+            "position": "absolute",
+            "justifyContent": "end",
+            "padding": "${gamebookStyles.gb_padding}",
+            "items": [
+              {
+                "type": "Text",
+                "text": "",
+                "textAlign": "center",
+                "textAlignVertical": "center",
+                "height": "100%",
+                "width": "100%"
+              },
+              {
+                "type": "Frame",
+                "borderRadius": 15,
+                "width": "100%",
+                "position": "absolute",
+                "height": "${gamebookStyles.gb_frame_height}",
+                "backgroundColor": "${gamebookStyles.gb_frame_background}",
+                "item": [
+                  {
+                    "type": "Pager",
+                    "width": "100%",
+                    "height": "100%",
+                    "navigation": "normal",
+                    "id": "console_pager",
+                    "items": [
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

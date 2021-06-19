@@ -1,0 +1,100 @@
+{
+  "scenes": [
+    {
+			"id": "id0",
+			"type": "normal",
+			"title": "昔話",
+			"backgroundImage": "https://【立ち上げたサーバのホスト名】/media/bg_yozora_night_sky.jpg",
+			"sentences": [
+        "昔々あるところに、おじいさんとおばあさんがいました。"
+      ],
+			"players": [
+				{
+					"image_src": "https://【立ち上げたサーバのホスト名】/media/ojiisan.png",
+					"height": 80,
+					"position": 4
+				},
+			  {
+					"image_src": "https://【立ち上げたサーバのホスト名】/media/obaasan.png",
+					"height": 60,
+					"position": 8
+        }
+			],
+			"choices": {
+				"text": "選択してください",
+				"choices": [
+          {
+						"text": "おじいさんと話す",
+						"choice_id": "id1"
+          },
+          {
+						"text": "おばあさんと話す",
+						"choice_id": "id2"
+          }
+        ]
+      }
+    },
+    {
+			"id": "id1",
+			"type": "normal",
+			"headerTitle": "昔話",
+			"backgroundImage": "https://【立ち上げたサーバのホスト名】/media/bg_yozora_night_sky.jpg",
+			"sentences": [
+        "こんにちは。",
+        "わしはおじいさんです。"
+      ],
+			"players": [
+				{
+					"image_src": "https://【立ち上げたサーバのホスト名】/media/ojiisan.png",
+					"height": 80,
+					"position": 6
+				}
+			],
+			"choices": {
+				"text": "選択してください",
+				"choices": [
+          {
+						"text": "戻る",
+						"choice_id": "id0"
+          }
+        ]
+      }
+    },
+    {
+			"id": "id2",
+			"type": "normal",
+			"headerTitle": "昔話",
+			"backgroundImage": "https://【立ち上げたサーバのホスト名】/media/bg_yozora_night_sky.jpg",
+			"sentences": [
+        "こんにちは",
+        "わたしはおばあさんです。"
+      ],
+			"players": [
+				{
+					"image_src": "https://【立ち上げたサーバのホスト名】/media/obaasan.png",
+					"height": 60,
+					"position": 6
+				}
+			],
+			"choices": {
+				"text": "選択してください",
+				"choices": [
+					{
+						"text": "戻る",
+						"choice_id": "id0"
+					}
+				]
+      }
+    },
+    {
+			"id": "0",
+			"type": "video",
+			"video_src": "https://【立ち上げたサーバのホスト名】/media/Pexels Videos 4703.mp4",
+			"title": "昔話",
+			"choice_id": "id0",
+			"sentences": [
+        "ビデオが流れます。"
+      ]
+    }
+  ]
+}

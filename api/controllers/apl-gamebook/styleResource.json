@@ -1,0 +1,13 @@
+{
+  "gamebookStyles": {
+    "title": "基本的なデータソース内のタイトルフィールド例",
+    "gb_padding": "20dp",
+    "gb_para_padding": "5dp",
+    "gb_frame_height": "25%",
+    "gb_frame_background": "rgba(0,0,255,20%)",
+    "gb_font_size": "20dp",
+    "gb_font_color": "white",
+    "gb_font_size_title": "40dp",
+    "gb_font_color_title": "white"
+  }
+}
