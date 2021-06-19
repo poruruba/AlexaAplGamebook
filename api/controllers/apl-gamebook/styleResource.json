@@ -1,6 +1,5 @@
 {
   "gamebookStyles": {
-    "title": "基本的なデータソース内のタイトルフィールド例",
     "gb_padding": "20dp",
     "gb_para_padding": "5dp",
     "gb_frame_height": "25%",
