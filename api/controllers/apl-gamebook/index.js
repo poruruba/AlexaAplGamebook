@@ -19,7 +19,8 @@ app.intent("ChoiceSelectIntent", async (handlerInput) => {
 	console.log(handlerInput);
 	var builder = handlerInput.responseBuilder;
 
-	var select = parseInt(handlerInput.requestEnvelope.request.intent.slots.select.value);
+	var slots = app.getSlots(handlerInput);
+	var select = parseInt(slots.select.value);
 
 	var attributes = app.getAttributes(handlerInput);
 	var choice_id = findChoiceId(scenario, attributes.current_id, select - 1);
